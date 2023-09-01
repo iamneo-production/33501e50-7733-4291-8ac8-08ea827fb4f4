@@ -1,0 +1,121 @@
+{
+  "admin": [
+    {
+      "id": "EHRM",
+      "name": "Electronic Health Record Management",
+      "password": "ehrm",
+      "email": "ehrm@gmail.com",
+      "phone": "1234567890"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "LalithaDoctor",
+      "name": "Lalitha Sunkara",
+      "gender": "F",
+      "email": "lalli@gmail.com",
+      "password": "lalli",
+      "education": "MBBS",
+      "specialization": "neurologist",
+      "phone": "9090909090"
+    },
+    {
+      "id": "LakshmiDoctor",
+      "name": "LakshmiK",
+      "gender": "female",
+      "email": "lakshmik@gmail.com",
+      "password": "lakshmi",
+      "education": "MBBS",
+      "specialization": "dermotologist",
+      "phone": "1234567899"
+    }
+  ],
+  "staff": [
+    {
+      "id": "lakshmi",
+      "name": "lakshmi",
+      "gender": "male",
+      "email": "laksh@gmail.com",
+      "password": "lakshmi",
+      "education": "Intermediate",
+      "phone": "8989898989"
+    },
+    {
+      "id": "Yasaswi",
+      "name": "Lakshmi Yasaswi",
+      "gender": "female",
+      "email": "yashu@gmail.com",
+      "password": "yashu",
+      "education": "Mpharmacy",
+      "phone": "9030655944"
+    },
+    {
+      "id": "Sudha",
+      "name": "sudha",
+      "gender": "female",
+      "email": "sudha@gmail.com",
+      "password": "sudha",
+      "education": "Intermediate",
+      "phone": "9030655944"
+    }
+  ],
+  "patients": [
+    {
+      "id": "ABC",
+      "name": "Antony",
+      "age": "22",
+      "gender": "female",
+      "email": "abc@gmail.com",
+      "password": "abc",
+      "address": "vijayawada",
+      "disease": "stomach pain",
+      "phone": "1234567890"
+    }
+  ],
+  "appointments": [
+    {
+      "patientId": "ABC",
+      "doctorId": "LalithaDoctor",
+      "appointmentDateTime": "2023-08-30T12:21",
+      "appointmentStatus": "pending",
+      "medicalHistory": "Sugar",
+      "id": 1
+    },
+    {
+      "patientId": "ABC",
+      "doctorId": "LalithaDoctor",
+      "appointmentDateTime": "2023-08-17T12:25",
+      "appointmentStatus": "pending",
+      "medicalHistory": "Gastric Problem",
+      "id": 4
+    },
+    {
+      "patientId": "ABC",
+      "doctorId": "LakshmiDoctor",
+      "appointmentDateTime": "2023-09-13T20:16",
+      "appointmentStatus": "pending",
+      "medicalHistory": "Cancer",
+      "id": 5
+    },
+    {
+      "patientId": "ABC",
+      "doctorId": "LakshmiDoctor",
+      "appointmentDateTime": "2023-09-23T20:15",
+      "appointmentStatus": "confirmed",
+      "medicalHistory": "Sugar",
+      "id": 6
+    }
+  ],
+  "medicalReports": [
+    {
+      "appointmentId": 4,
+      "patientId": "ABC",
+      "doctorId": "LalithaDoctor",
+      "medications": "paracetemol",
+      "dosage": "2",
+      "tests": "sugar",
+      "comments": "normal",
+      "id": 1
+    }
+  ]
+}

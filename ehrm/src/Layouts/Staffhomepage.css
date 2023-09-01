@@ -1,0 +1,25 @@
+
+.table td {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background-image-container {
+  background-image: url("https://media.istockphoto.com/photos/blur-background-of-patient-waiting-for-see-doctor-at-hospital-picture-id881688374?k=6&m=881688374&s=170667a&w=0&h=kPOTpPvPrXJQTFSriMM0Zw2e5ZKPj-Y-IvqsOLVn6b8=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}

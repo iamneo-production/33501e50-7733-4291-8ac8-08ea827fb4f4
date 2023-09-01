@@ -1,0 +1,23 @@
+.table td {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+}
+.btn-circle {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.background-image-container {
+  background-image: url("https://cdn.expresshealthcare.in/wp-content/uploads/2020/04/07175319/GettyImages-1158016459-e1586262393556.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}

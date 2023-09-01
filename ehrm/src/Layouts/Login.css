@@ -1,0 +1,26 @@
+/* h1 {
+  color: aliceblue;
+} */
+.background-image-container1 {
+  background-image: url("https://th.bing.com/th/id/R.4b5a7b2ba22315ea03f92db9ccb95127?rik=G6uq3rD7CVD1pQ&riu=http%3a%2f%2fwww.mdmedical.co%2fimages%2fsections%2fcustomers.jpg&ehk=KsL%2fCuWJzxoKFKX8iChB5nHOxQhv8MWt5D45Vkc8JLE%3d&risl=&pid=ImgRaw&r=0");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  position: relative;
+}
+.transparent-form {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  ); /* Change the color and opacity as needed */
+  padding: 45px;
+  border-radius: 10px;
+  margin: auto;
+  width: 50%;
+}
+/* .form-group {
+  margin: auto;
+  width: 50%;
+} */
